@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/limachar/JavaScriptWeb-Backend/issues"
   },
-  "homepage": "https://github.com/limachar/JavaScriptWeb-Backend#readme"
+  "homepage": "https://github.com/limachar/JavaScriptWeb-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "healthcheck": "^0.1.3"
+  }
 }
