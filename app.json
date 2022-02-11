@@ -1,0 +1,8 @@
+{
+    "name": "JavaScriptWeb-Backend",
+    "description": "Javascript Backend",
+    "repository": "https://github.com/limachar/JavaScriptWeb-Backend.git",
+    "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
+    "keywords": ["node", "express", "heroku"],
+    "image": "heroku/nodejs"
+}
