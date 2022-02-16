@@ -13,8 +13,8 @@ app.get('/', (req, res)=>{
         "http_status":200, "cache-control": "no-cache"}
     body={
         "status": "available"}
-    res.status(200).send(body)
-    res.json({ message: 'Hello world' })
+    res.status(200).send(body, res.json({ message: 'Hello world' }))
+    
 })
 
 app.listen(PORT, ()=>{
