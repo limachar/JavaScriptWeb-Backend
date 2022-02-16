@@ -25,7 +25,7 @@ app.post('/messages', (req,res) =>{
 
     res.send('message added')
 })
-app.get('/messages', (req, res) =>{
+app.get('/message', (req, res) =>{
     res.json(messages)
 })
 
